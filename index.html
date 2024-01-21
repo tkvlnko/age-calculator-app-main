@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/icon-arrow.svg">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <link href="./style.css" rel="stylesheet">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="card">
+      <div class="main-content">
+        <div class="data">
+          <form id="date-form">
+  
+            <div class="item">
+              <label name="day">Day</label>
+              <input name="day" type="text" id="day" placeholder="DD"/>
+            </div>
+            
+            <div class="item">
+              <label name="month">Month</label>
+              <input name="month" type="text" id="month" placeholder="MM"/>
+            </div>
+  
+            <div class="item">
+              <label name="year">Year</label>
+              <input name="year" type="text" id="year" placeholder="YYYY"/>
+            </div>
+  
+          </form>
+        </div>
+        <div class="line"></div>
+        <div class="result">
+          <h1 class="days-result"><span>--</span> years</h1>
+          <h1 class="months-result"><span>--</span> months</h1>
+          <h1 class="years-result"><span>--</span> days</h1>
+        </div>
+      </div>
+      <button form="date-form" class="icon" type="submit"><img height="50" width="50" src="./assets/images/icon-arrow.svg"/></button>
+
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script type="module" src="./index.js"></script>
+</body>
+</html>

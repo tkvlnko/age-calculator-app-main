@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 62px;
+    margin: 0;
+    line-height: 62px;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 94%);
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    max-width: 40%;
+    min-width: 35%;
+    background-color: white;
+    padding: 2rem 3rem;
+    border-radius: 25px 25px 100px 25px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    margin-right: 2rem;
+}
+
+form {
+    display: flex;
+    justify-content: start;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 0;
+    padding: 2rem;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover{
+    background-color: hsl(259, 58%, 51%);
+    filter: drop-shadow(0 0 0.75rem hsl(259, 43%, 60%));
+}
+
+button:active{
+    background-color: hsl(259, 56%, 42%);
+}
+
+input {
+    min-width: 4rem;
+    max-width: 5rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid hsl(0, 0%, 86%);
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.input-invalid {
+    border: 1px solid hsl(0, 78%, 45%)
+}
+
+label {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    color: hsl(0, 1%, 44%);
+}
+
+.line {
+    display: flex;
+    height: 1px;
+    background-color: hsl(0, 0%, 94%);
+    width: 100%;
+    z-index: 100;
+}
+
+.main-content {
+    width: 100%;
+}
+
+.data {
+    margin-bottom: 2rem;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    margin-top: 5.5rem;
+}
+
+span {
+    color:hsl(259, 100%, 65%);
+}
+
+.result {
+    margin: 2rem 0;
+}
